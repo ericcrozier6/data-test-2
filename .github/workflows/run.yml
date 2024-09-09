@@ -27,7 +27,7 @@ jobs:
 
       - run: ls
 
-      # prevents fatal: detected dubious ownership in repository at '/__w/github-automation/github-automation'
+      # prevents fatal: detected dubious ownership in repository at '/__w/data-test-2/data-test-2'
       - run: git config --global --add safe.directory /__w/github-automation/github-automation
 
       # Commit all changed files back to the repository
