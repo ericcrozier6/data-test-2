@@ -21,6 +21,12 @@ jobs:
 
       - run: apt-get install -y git
 
+      #- run: pip install requests
+
+      #- run: pip install h3 --pre 
+
+      #- run: python3 run.py
+
       - uses: actions/checkout@v3
 
       - run: sh ./run.sh
