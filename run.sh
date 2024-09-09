@@ -2,4 +2,4 @@ curl "https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%27name%27%2C%
 
 #https://www.google.com/maps/d/edit?mid=1WhzfLmoIjm5BA_8s1munnOBUqDzU3zI&usp=sharing
 
-curl "https://www.google.com/maps/d/edit?mid=1WhzfLmoIjm5BA_8s1munnOBUqDzU3zI&usp=sharing" --output data1.kml
+curl "https://www.google.com/maps/d/edit?mid=1WhzfLmoIjm5BA_8s1munnOBUqDzU3zI&usp=sharing&forcekml=0" --output data1.kml
