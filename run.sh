@@ -5,3 +5,6 @@ curl "https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%27name%27%2C%
 #Curl my maps 
 curl "https://www.google.com/maps/d/kml?mid=1WhzfLmoIjm5BA_8s1munnOBUqDzU3zI&forcekml=1" --output data1.kml
 
+
+ogr2ogr data.parquet "/vsicurl/https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/USGS_Seismic_Data_v1/FeatureServer/0/query?f=geojson&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=mag%20DESC&outSR=3857&resultOffset=0&resultRecordCount=10000"
+
